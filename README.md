@@ -27,13 +27,17 @@
    python NYTData.py
    ```
 3. train model 
-
+   
+   ```shell
+   cd codes
+   ```
+   
    train with cpu
    ```shell
    python main.py -n 50 --lib GCEK -m GCEK -p GCEK_520K -o momentum --data_version 520
    ```
+   
    train with gpu
-
    ```shell
    python main.py -c 0 -n 50 --lib GCEK -m GCEK -p GCEK_520K -o momentum --data_version 520
    ```
