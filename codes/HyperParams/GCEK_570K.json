@@ -1,0 +1,14 @@
+{
+  "bsz": 160,
+  "channels": 230,
+  "output_dropout": 0.5,
+  "att_hidden_s": 256,
+  "att_hidden_b": 512,
+  "lambda": 43,
+  "grad_reqW": 1,
+  "grad_reqK": 1,
+  "is_norm_emb": 1,
+  "weight_decay": 0,
+  "lr": 0.1,
+  "momentum": 0.1
+}
