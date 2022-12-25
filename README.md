@@ -11,12 +11,14 @@
     NYT 570K
     ```shell
     cd codes/data/NYT_data/NYT_522611/extract_cpp/
-    .extract
+    unzip -d ./ NYT_570088.zip
+    ./extract
     ```
     NYT 520K
     ```shell
     cd codes/data/NYT_data/NYT_570088/extract_cpp/
-    .extract
+    unzip -d ./ NYT_522611.zip
+    ./extract
     ```
 2. generate train data and test data
    
